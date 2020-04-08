@@ -1,0 +1,19 @@
+{
+  "name": "authdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "authdemo.js",
+  "scripts": {
+    "start": "node authdemo.js"
+  },
+  "author": "joey whelan",
+  "license": "MIT",
+  "dependencies": {
+    "@types/btoa": "^1.2.3",
+    "@types/dotenv": "^8.2.0",
+    "@types/node-fetch": "^2.5.5",
+    "btoa": "^1.2.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
