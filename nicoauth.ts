@@ -46,7 +46,7 @@ export class NicOAuth implements Authenticator {
             case GRANT.PASSWORD : {
                 body = {
                     'grant_type' : 'password',
-                    'username' : username,  //this will throw an error if credentials isn't defined, as it should
+                    'username' : username,  
                     'password' : password
                 }
                 break;
