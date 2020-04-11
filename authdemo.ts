@@ -30,7 +30,7 @@ async function demo():Promise<void> {
     console.log('');
 
     const credentials = new Credentials(username, password);
-    const passwordAuth = new NicOAuth(app, vendor, secret, GRANT.CLIENT, url, credentials);
+    const passwordAuth = new NicOAuth(app, vendor, secret, GRANT.PASSWORD, url, credentials);
     token = await passwordAuth.getToken();
     console.log(`password auth token: ${token}`);
     console.log('');
